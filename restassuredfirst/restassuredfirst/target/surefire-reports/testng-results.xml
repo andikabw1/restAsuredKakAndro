@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-16T06:34:14Z" name="Suite" finished-at="2021-09-16T06:34:41Z" duration-ms="26819">
+    <groups>
+    </groups>
+    <test started-at="2021-09-16T06:34:14Z" name="Test" finished-at="2021-09-16T06:34:41Z" duration-ms="26819">
+      <class name="restassured.restassuredfirst.APITest">
+        <test-method signature="fakerTest()[pri:0, instance:restassured.restassuredfirst.APITest@5215cd9a]" started-at="2021-09-16T06:34:14Z" name="fakerTest" finished-at="2021-09-16T06:34:14Z" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fakerTest -->
+        <test-method signature="testLoginAPI()[pri:1, instance:restassured.restassuredfirst.APITest@5215cd9a]" started-at="2021-09-16T06:34:37Z" name="testLoginAPI" finished-at="2021-09-16T06:34:39Z" duration-ms="1635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginAPI -->
+        <test-method signature="dashboardAPI()[pri:2, instance:restassured.restassuredfirst.APITest@5215cd9a]" started-at="2021-09-16T06:34:39Z" name="dashboardAPI" finished-at="2021-09-16T06:34:41Z" duration-ms="1641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardAPI -->
+      </class> <!-- restassured.restassuredfirst.APITest -->
+      <class name="restassured.restassuredfirst.APITestAfterRefactor1">
+        <test-method is-config="true" signature="login()[pri:0, instance:restassured.restassuredfirst.APITestAfterRefactor1@31198ceb]" started-at="2021-09-16T06:34:27Z" name="login" finished-at="2021-09-16T06:34:29Z" duration-ms="1688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="configurationsAPI()[pri:0, instance:restassured.restassuredfirst.APITestAfterRefactor1@31198ceb]" started-at="2021-09-16T06:34:29Z" name="configurationsAPI" finished-at="2021-09-16T06:34:31Z" duration-ms="1615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configurationsAPI -->
+        <test-method is-config="true" signature="login()[pri:0, instance:restassured.restassuredfirst.APITestAfterRefactor1@31198ceb]" started-at="2021-09-16T06:34:31Z" name="login" finished-at="2021-09-16T06:34:32Z" duration-ms="1653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="dashboardAPI()[pri:0, instance:restassured.restassuredfirst.APITestAfterRefactor1@31198ceb]" started-at="2021-09-16T06:34:32Z" name="dashboardAPI" finished-at="2021-09-16T06:34:34Z" duration-ms="1561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardAPI -->
+        <test-method is-config="true" signature="login()[pri:0, instance:restassured.restassuredfirst.APITestAfterRefactor1@31198ceb]" started-at="2021-09-16T06:34:34Z" name="login" finished-at="2021-09-16T06:34:36Z" duration-ms="1668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="fakerTest()[pri:0, instance:restassured.restassuredfirst.APITestAfterRefactor1@31198ceb]" started-at="2021-09-16T06:34:36Z" name="fakerTest" finished-at="2021-09-16T06:34:36Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fakerTest -->
+        <test-method is-config="true" signature="login()[pri:0, instance:restassured.restassuredfirst.APITestAfterRefactor1@31198ceb]" started-at="2021-09-16T06:34:36Z" name="login" finished-at="2021-09-16T06:34:37Z" duration-ms="1783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="fakerTest2()[pri:0, instance:restassured.restassuredfirst.APITestAfterRefactor1@31198ceb]" started-at="2021-09-16T06:34:37Z" name="fakerTest2" finished-at="2021-09-16T06:34:37Z" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fakerTest2 -->
+      </class> <!-- restassured.restassuredfirst.APITestAfterRefactor1 -->
+      <class name="restassured.restassuredfirst.APITestAfterRefactor2">
+        <test-method is-config="true" signature="login()[pri:0, instance:restassured.restassuredfirst.APITestAfterRefactor2@36b6964d]" started-at="2021-09-16T06:34:14Z" name="login" finished-at="2021-09-16T06:34:17Z" duration-ms="3149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="configurationsAPI()[pri:0, instance:restassured.restassuredfirst.APITestAfterRefactor2@36b6964d]" started-at="2021-09-16T06:34:17Z" name="configurationsAPI" finished-at="2021-09-16T06:34:19Z" duration-ms="1638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configurationsAPI -->
+        <test-method is-config="true" signature="login()[pri:0, instance:restassured.restassuredfirst.APITestAfterRefactor2@36b6964d]" started-at="2021-09-16T06:34:19Z" name="login" finished-at="2021-09-16T06:34:21Z" duration-ms="1712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="dashboardAPI()[pri:0, instance:restassured.restassuredfirst.APITestAfterRefactor2@36b6964d]" started-at="2021-09-16T06:34:21Z" name="dashboardAPI" finished-at="2021-09-16T06:34:23Z" duration-ms="2013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardAPI -->
+        <test-method is-config="true" signature="login()[pri:0, instance:restassured.restassuredfirst.APITestAfterRefactor2@36b6964d]" started-at="2021-09-16T06:34:23Z" name="login" finished-at="2021-09-16T06:34:24Z" duration-ms="1645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="fakerTest()[pri:0, instance:restassured.restassuredfirst.APITestAfterRefactor2@36b6964d]" started-at="2021-09-16T06:34:24Z" name="fakerTest" finished-at="2021-09-16T06:34:24Z" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fakerTest -->
+        <test-method is-config="true" signature="login()[pri:0, instance:restassured.restassuredfirst.APITestAfterRefactor2@36b6964d]" started-at="2021-09-16T06:34:24Z" name="login" finished-at="2021-09-16T06:34:26Z" duration-ms="1717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="testInvalidCredentials()[pri:0, instance:restassured.restassuredfirst.APITestAfterRefactor2@36b6964d]" started-at="2021-09-16T06:34:26Z" name="testInvalidCredentials" finished-at="2021-09-16T06:34:27Z" duration-ms="1451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidCredentials -->
+      </class> <!-- restassured.restassuredfirst.APITestAfterRefactor2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

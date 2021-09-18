@@ -1,0 +1,3 @@
+2021-09-18 16:55:36,376 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-09-18 17:06:40,061 [Worker-0: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\JakartaLabs\restassuredfirst\restassuredfirst
+2021-09-18 17:06:40,077 [Worker-0: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean test -Dsurefire.suiteXmlFiles=apitestmultimethod.xml -Denv=prod -X

@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+C:\Users\Permata\automation2\restassuredfirst\.metadata\.plugins\org.eclipse.jdt.core
